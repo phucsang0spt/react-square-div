@@ -1,0 +1,22 @@
+.square-div {
+  width: 100%;
+
+  position: relative;
+}
+
+.square-div_fixed-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.square-div_normal-layer {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
