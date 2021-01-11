@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles.css";
 
 interface SquareDivProps {
   children: React.ReactNode;
