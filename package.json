@@ -1,30 +1,30 @@
 {
-    "name": "react-square-div",
-    "version": "1.0.3",
-    "description": "",
-    "main": "lib/index.js",
-    "types": "lib",
-    "scripts": {
-        "build": "tsc -p . && cp styles.css lib"
-    },
-    "files": [
-        "/lib"
-    ],
-    "keywords": [
-        "react square div",
-        "react div",
-        "css div height equal to width",
-        "height width equal"
-    ],
-    "repository": "https://github.com/phucsang0spt/react-square-div",
-    "author": "Phuc Sang",
-    "license": "ISC",
-    "dependencies": {
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1"
-    },
-    "devDependencies": {
-        "@types/react": "^17.0.0",
-        "typescript": "^4.1.3"
-    }
+  "name": "react-square-div",
+  "version": "1.0.4",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p . && cp styles.css lib"
+  },
+  "files": [
+    "/lib"
+  ],
+  "keywords": [
+    "react square div",
+    "react div",
+    "css div height equal to width",
+    "height width equal"
+  ],
+  "repository": "https://github.com/phucsang0spt/react-square-div",
+  "author": "Phuc Sang",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.3"
+  }
 }

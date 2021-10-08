@@ -2,14 +2,14 @@ import React from "react";
 
 interface SquareDivProps {
   children: React.ReactNode;
-  ratio?: 2 | 1.5 | 1 | 0.7 | 0.6 | 0.5;
+  ratio?: number;
   background?: string;
 }
 
 export default function SquareDiv({
   background,
   ratio = 1,
-  children
+  children,
 }: SquareDivProps) {
   return (
     <div
